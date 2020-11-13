@@ -1,3 +1,5 @@
+https://github.com/ChilliCream/graphql-workshop/
+
 ![ChilliCream](docs/images/ChilliCream.svg)
 
 # Getting started with GraphQL on ASP.NET Core and Hot Chocolate - Workshop
