@@ -10,6 +10,7 @@ using ConferencePlanner.GraphQL.Sessions;
 using ConferencePlanner.GraphQL.Speakers;
 using ConferencePlanner.GraphQL.Tracks;
 using ConferencePlanner.GraphQL.Types;
+using HotChocolate.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -65,6 +66,7 @@ namespace ConferencePlanner.GraphQL
 
             app.UseWebSockets();
             app.UseRouting();
+            app.UsePlayground();
 
             app.UseEndpoints(endpoints =>
             {

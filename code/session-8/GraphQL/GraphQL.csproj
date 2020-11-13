@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="HotChocolate.AspNetCore" Version="11.0.0-rc.0" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.3" />
     <PackageReference Include="HotChocolate.Data" Version="11.0.0-rc.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0-rc.1.20451.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.0-rc.1.20451.13" />
